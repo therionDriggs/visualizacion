@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: contador
-        image: theriondriggs/contador:1.0
-        imagePullPolicy: Always
+        image: contador-python:2.0
+        imagePullPolicy: IfNotPresent
 

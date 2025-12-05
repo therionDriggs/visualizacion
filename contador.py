@@ -6,4 +6,4 @@ for i in range(1, 11):
     print(f"Suma hasta {i}: {resultado}")
 
 print("en ejecucion")
-time.sleep(100)
+time.sleep(3600)
