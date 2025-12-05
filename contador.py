@@ -1,4 +1,5 @@
-# contador.py
+resultado = 0
 for i in range(1, 11):
-    print(f"Número: {i}")
+    resultado += i
+    print(f"Suma hasta {i}: {resultado}")
 
