@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: contador-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: contador
+  template:
+    metadata:
+      labels:
+        app: contador
+    spec:
+      containers:
+      - name: contador
+        image: theriondriggs/contador:1.0
+        imagePullPolicy: Always
+
