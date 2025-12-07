@@ -15,5 +15,5 @@ spec:
       containers:
       - name: contador
         image: contador-python:1.0
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Never
 
